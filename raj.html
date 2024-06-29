@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="raj.css">
+    <script src="raj.js"></script>
+    <title>Raj Lights</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="first">
+        <div class="navbar">
+            <div class="leftnb">
+                <img src="assets/reactNative.webp" alt="">
+            </div>
+            <div class="rightnb">
+                <div id="home"><a href="#first">Home</a></div>
+                <div id="products"><a href="#second">Products</a></div>
+                <div id="brands"><a href="#third">Brands</a></div>
+                <div id="support"><a href="#fourth">Contact Us</a></div>
+                <input type="checkbox" id="sidebar" style="display: none;" hidden>
+                <div id="sidebar" onclick="document.getElementById('sidebar').click()" ><i class="fa-solid fa-bars"></i></div>
+                <div class="sidenb" hidden>
+                    <div id="home"><a href="#first">Home</a></div>
+                    <div id="products"><a href="#second">Products</a></div>
+                    <div id="brands"><a href="#third">Brands</a></div>
+                    <div id="support"><a href="#fourth">Contact Us</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="txt">
+            <p>Nothing can Dim <br>our INNER SHINE!</p>
+            <p class="aut" style="font-weight: 0; font-family: 'Times New Roman', Times, serif;"><i>- Rajeswar Yadav</i></p>
+        </div>
+        <div class="toggle">
+            <input type="checkbox" id="modeToggle" hidden>
+            <div class="lb" onclick="document.getElementById('modeToggle').click()">
+                <p class="one" style="rotate: 360deg;">Light Mode</p>
+                <p class="two" style="rotate: 360deg;">Dark Mode</p>
+            </div>
+        </div>
+    </div>
+    <div id="second">
+        <div class="heading" id="heading">Explore Our <span>Wide</span> Range of <span>Products</span></div>
+        <div class="rbut">
+            <input type="checkbox" id="hl">
+            <div class="rb1" onclick="myFun1()">Home Lights</div>
+            <input type="checkbox" id="ol">
+            <div class="rb2" onclick="myFun2()">Office Lights</div>
+            <input type="checkbox" id="pl">
+            <div class="rb3" onclick="myFun3()">Pub Lights</div>
+            <input type="checkbox" id="bl">
+            <div class="rb4" onclick="myFun4()">Bed Lights</div>
+        </div>
+        <div class="images">
+            <div class="ileft" id="ileft"></div>
+            <div class="imid" id="imid"></div>
+            <div class="iright" id="iright"></div>
+        </div>
+    </div>
+    <div id="third">
+        <div class="clients">
+            Our <span>Clients</span>
+        </div>
+        <div class="logos">
+            <div class="one1"></div>
+            <div class="two2"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+        </div>
+    </div>
+    <div id="fourth">
+        <div class="leftLogo">
+            <img src="assets/logo.png" alt="">
+        </div>
+        <div class="rightSupport">
+            <p><i class="fa-solid fa-location-dot"></i>&nbsp; Raj Lights Pvt. Ltd. No. 18/3, Seethayya Gari Thota, <br> Pithapuram, Kakinada - 533450, Andhra Pradesh, India</p>
+            <p><i class="fa-solid fa-phone"></i>&nbsp; +91 9123456780</p>
+            <p><a href="https://www.linkedin.com/in/nryadav18/"><i class="fa-brands fa-linkedin"></i> &nbsp; Contact Us</a></p>
+            <p><a href="mailto:cserajeswaryadav@gmail.com"><i class="fa-solid fa-envelope"></i> &nbsp; Email</a></p>
+        </div>
+        <div class="downCopyright">Copyrights&copy;2024 - Neduri Rajeswar Yadav</div>
+    </div>
+</body>
+</html>
